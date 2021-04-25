@@ -1,1 +1,1 @@
-# project_tensketch
+# Internship_Tensketch
