@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta character="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Responsive table</title>
+<style>
+   body{
+       font-family: Arial,sans-serif;
+   }
+   table{
+    border: 1px solid rgb(0,0,0);   
+    width: 100%;
+    font-family: arial;
+    background-color: crimson;
+    }
+    th,td{
+    text-align: center;
+    padding: 8px;
+    }
+    .responsive-iframe{
+        width: 100%;
+        margin: auto;
+        border: none;
+    }
+    .table{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .bgimage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-attachment: fixed;
+        background-color: rgba(255,255,255,0.445);
+        background-blend-mode: oerlay;
+        background-image: url(https://m.media-amazon.com/images/I/71tGMd67-0L._AC_.jpg);
+        background-position: center;
+        background-size: cover
+    }
+    </style>
+</head>    
+<body>
+        <h1>RESPONSIVE HTML TABLE</h1>
+        <section id="TABLE">
+        <div style="overflow-x: auto;">
+        <table cellpadding=5 cellpadding=5 align="center" border="6">
+        <tr>
+            <th>S.NO</th>
+            <th>SITES</th>
+            <th>VIEWS</th>
+            <th>CLICKS</th>
+            <th>AVERAGES</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Google</td>
+            <td>9518</td>
+            <td>6369</td>
+            <td>01:32:50</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>GitHub</td>
+            <td>7325</td>
+            <td>10437</td>
+            <td>00:51:22</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Codepen.io</td>
+            <td>6745</td>
+            <td>5327</td>
+            <td>00:24:38</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Twitter</td>
+            <td>5678</td>
+            <td>4132</td>
+            <td>00:46:78</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Amazon</td>
+            <td>4423</td>
+            <td>3487</td>
+            <td>00:31:52</td>
+        </tr>
+
+    </table>
+</div>
+</section>
+<br><br><br>
+    <h3>Iframe</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.163406270205!2d80.25181041402993!3d12.985224903549506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d5b9b3bfc6f%3A0x6959f97669f90baa!2sThiruvanmiyur%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1619845498318!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<br><br><br>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/ch45WY6oiYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br><br>
+    <h3>Background image</h3>
+    <section class="bgimage">
+       <h1>Experience the color of life</h1>
+       </section>
+       </body>
+       </html>
+
